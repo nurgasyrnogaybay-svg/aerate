@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 0.6875rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-indigo-950 flex justify-center items-center min-h-screen">
+    <div class="cont bg-white w-[900px] h-[550px] rounded-sm p-5 flex">
+      <div class="left w-[50%] h-[100%] flex flex-col gap-7 pt-10 pl-5">
+        <h1 class="text-5xl font-bold">Stay updated!</h1>
+        <p>
+          Join 60,000+ product managers receiving monthly <br />
+          updates on:
+        </p>
+        <div class="flex flex-col gap-3">
+          <div class="flex flex-row justify-start items-center gap-3">
+            <img
+              class="w-[30px] h-[30px] rounded-[50%]"
+              src="assets/images/icon-success.svg"
+              alt=""
+            />
+            <p>Product discovery and building what matters</p>
+          </div>
+          <div class="flex flex-row justify-start items-center gap-3">
+            <img
+              class="w-[30px] h-[30px] rounded-[50%]"
+              src="assets/images/icon-success.svg"
+              alt=""
+            />
+            <p>Measuring to ensure updates are a success</p>
+          </div>
+          <div class="flex flex-row justify-start items-center gap-3">
+            <img
+              class="w-[30px] h-[30px] rounded-[50%]"
+              src="assets/images/icon-success.svg"
+              alt=""
+            />
+            <p>And much more!</p>
+          </div>
+        </div>
+        <p>Email address</p>
+        <input
+          class="w-[365px] h-[40px] border rounded-sm"
+          placeholder="email@company.com"
+          type="text"
+        />
+        <div
+          class="bg-blue-950 w-[365px] h-[40px] border rounded-sm flex items-center justify-center"
+        >
+          <h1 class="text-white">Subscribe to monthly newsletter</h1>
+        </div>
+      </div>
+      <div
+        class="right w-[50%] h-[100%] bg-[url('assets/images/desk.svg')] bg-cover bg-center rounded-xl"
+      ></div>
+    </div>
+  </body>
+</html>
